@@ -1,0 +1,1 @@
+""" Contains functions which can be applied to a pandas dataframe to aggregate

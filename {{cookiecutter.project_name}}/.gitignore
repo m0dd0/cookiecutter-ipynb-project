@@ -1,0 +1,7 @@
+{{cookiecutter.project_name}}/data/*
+
+*.pyc
+__pycache__
+*.egg-info
+
+venv
