@@ -11,15 +11,17 @@ setuptools.setup(
     # url="",
     classifiers=["Programming Language :: Python :: 3"],
     packages=setuptools.find_packages(),
-    python_requires="==3.10",
+    python_requires="~=3.9",
     # not specifying versions might result in pip downloading multiple versions
     # of a package in order to solve dependencies
     # therfore it might be useful to fix the versions someday
     install_requires=[
         "jupyter",
+        "pandas",
         "numpy",
         "nptyping",
         "matplotlib",
+        "seaborn",
     ],
     extras_require={"dev": ["black", "pylint"]},
     include_package_data=True,
