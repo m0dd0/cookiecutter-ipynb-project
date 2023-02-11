@@ -4,8 +4,7 @@
     {{cookiecutter.project_name}}
     ├── {{cookiecutter.project_name}}
     │   └── utils
-    │       ├── misc.py
-    │       ├── processing.py
+    │       ├── aggregation.py
     │       └── visualization.py
     ├── notebooks
     │   └── 00_experiments.ipynb
