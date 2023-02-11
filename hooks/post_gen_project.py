@@ -1,9 +1,5 @@
 import subprocess
 
-subprocess.run(["virtualenv", "venv"])
-subprocess.run(["powershell.exe", ".\\venv\\Scripts\\activate"])
-subprocess.run(["pip", "install", "-e", ".[dev]"])
-
 subprocess.run(["git", "init"])
 subprocess.run(["git", "add", "*"])
 subprocess.run(["git", "add", "-f", "{{cookiecutter.project_name}}/data/.gitkeep"])
@@ -17,3 +13,7 @@ if "{{cookiecutter.remote_url}}":
     subprocess.run(["git", "remote", "add", "origin", "{{cookiecutter.remote_url}}"])
     subprocess.run(["git", "remote", "-v"])
     subprocess.run(["git", "push", "origin", "main"])
+
+subprocess.run(["virtualenv", "venv"])
+subprocess.run(["powershell.exe", ".\\venv\\Scripts\\activate"])
+subprocess.run(["pip", "install", "-e", ".[dev]"])
