@@ -1,4 +1,4 @@
-# NotebookProjectCookiecutter
+# cookiecutter-ipynb-project
 
 ## Generated Project Structure
     {{cookiecutter.project_name}}
