@@ -1,7 +1,11 @@
 {
-    "repo_name": "MyJupyterNotebookProject",
-    "project_name": "my_jupyter_notebook_project",
     "author": "Moritz Hesche",
     "email": "mo.hesche@gmail.com",
-    "remote_url": ""
+    "repo_name": "MyJupyterNotebookProject",
+    "project_name": "my_jupyter_notebook_project",
+    "remote_url": "",
+    "create_venv": [
+        "yes",
+        "no"
+    ]
 }
